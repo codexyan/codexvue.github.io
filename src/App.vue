@@ -6,7 +6,7 @@ import Navbar from "./components/layouts/Navbar.vue";
 </script>
 
 <template>
-  <header>
+  <header class="pb-16">
     <div>
       <Navbar/>
     </div>

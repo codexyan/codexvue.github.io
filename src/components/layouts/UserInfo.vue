@@ -9,9 +9,9 @@ function toggleDropdown(){
 </script>
 
 <template>
-    <div class="md:order-2">
+    <div class="md:order-2 flex">
         <div class="flex items-center">
-            <div class="mr-2 text-sm font-regular">Halo, Fakhrian</div>
+            <div class="mr-2 text-sm font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-blue-600">Halo! Fakhrian</div>
             <button type="button"
                 class="flex mr-3 bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
                 id="user-menu-button" aria-expanded="false" data-dropdown-toggle="toggle" @click="toggleDropdown">
