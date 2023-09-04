@@ -18,6 +18,7 @@ const items = ref([
             <ItemCard 
                 v-for="item in items"
                 :key="item.id"
+                :id="item.id"
                 :title="item.title"
                 :description="item.description"
                 :image="item.image"
