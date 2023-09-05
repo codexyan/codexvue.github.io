@@ -13,8 +13,8 @@ window.onscroll = function(){
 
 // Component
 import Logo from "./Logo.vue";
-// import UserInfo from "./UserInfo.vue";
-import AuthButton from "./AuthButton.vue";
+import UserInfo from "./UserInfo.vue";
+// import AuthButton from "./AuthButton.vue";
 import NavigationLink from "./NavigationLink.vue";
 
 </script>
@@ -25,8 +25,8 @@ import NavigationLink from "./NavigationLink.vue";
         <div class="container flex flex-wrap items-center justify-between mx-auto my-2 relative">
 
             <Logo />
-            <!-- <UserInfo /> -->
-            <AuthButton />
+            <UserInfo />
+            <!-- <AuthButton /> -->
             <NavigationLink />
 
         </div>
